@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up | racodaagency.com</title>
+  <link rel="icon" href="img/logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link type="text/css" rel="stylesheet" href="styles.css">
+  <script type="text/javascript" src="script.js" defer></script>
+  <script type="text/javascript" src="signup.js" defer></script>
+</head>
+<body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+          <div class="mdl-layout__header-row">
+            <span class="mdl-layout-title">Racoda Agency</span>
+            <div class="mdl-layout-spacer"></div>
+            <nav class="mdl-navigation mdl-layout--large-screen-only">
+              <a class="mdl-navigation__link" href="index.html" style="font-size: 18px;">Home</a>
+              <a class="mdl-navigation__link" href="offers.html" style="font-size: 18px;">Offers</a>
+              <a class="mdl-navigation__link" href="contact.html" style="font-size: 18px;">Contact</a>
+              <a class="mdl-navigation__link" href="signup.html" style="font-size: 18px;">Sign Up</a>
+            </nav>
+          </div>
+        </header>
+        <div class="mdl-layout__drawer">
+          <span class="mdl-layout-title">Racoda Agency</span>
+          <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" href="index.html" style="font-size: 18px; color: black;">Home</a>
+            <a class="mdl-navigation__link" href="offers.html" style="font-size: 18px; color: black;">Offers</a>
+            <a class="mdl-navigation__link" href="contact.html" style="font-size: 18px; color: black;">Contact</a>
+            <a class="mdl-navigation__link" href="signup.html" style="font-size: 18px; color: black;">Sign Up</a>
+          </nav>
+        </div>
+        <main class="mdl-layout__content">
+          <div class="page-content">
+            <div id="cookiePopup">
+              <img src="img/cookie.png"/>
+              <p>
+                Our website uses different types of cookies to ensure its
+                secure operation, enable the use of its content and services,
+                and track its performance for optimization purposes.
+                Specifically, we use technically necessary, performance, and
+                functional cookies. If you click "Accept", you also consent
+                to the use of marketing and analysis cookies. For more details,
+                please refer to our information page.
+              </p>
+              <button class="declineCookie" id="declineCookie" style="opacity: 0.7;">Reject</button>
+              <button class="acceptCookie" id="acceptCookie" style="background-color: blue;">Accept</button>
+            </div>
+            <div class="background-cnt">
+              <form name="myform" class="signup-part" target="_blank" action="https://formsubmit.co/racodaagency@gmail.com" method="POST">
+                <tr><p class="margin-name">Name</p><td><input class="name-input" placeholder=" " type="text" required>
+                <span class="name-signup" id="name-signup"></span></td></tr>
+                <tr><p>Email</p><td><input class="mail-input" name="mail" placeholder=" " type="email" required>
+                <span class="mail-signup" id="mail-signup"></span></td></tr>
+                <tr><p>Password</p><td><input name="password" class="psswrdField" id="psswrdField" placeholder=" " type="password" autocomplete="current-password" required>
+                <i onclick="myFunction()" class="far fa-eye" style="cursor: pointer; color: #23405D"></i>
+                <span class="password-signup" id="password-signup"></span></td></tr>
+                <tr><p>Confirm Password</p><td><input type="password" placeholder=" " class="cnfPsswrdField" id="cnfPsswrdField" required>
+                <i onclick="myFunction1()" class="far fa-eye" style="cursor: pointer; color: #23405D"></i>
+                <span class="password-confirm-signup" id="password-confirm-signup"></span></td></tr>
+                <tr><td colspan="2"><br><button class="button-signup" id="button-signup" type="submit">Register</button></td></tr>
+                <input type="hidden" name="_url" value="https://yourdomain.co/help.html">
+              </form>
+              <img src="img/logbcg.jpg" class="bcg-img-signup" alt="background">
+            </div>
+            <div class="par-signup-container">
+              <p>
+                <br>
+                At our agency, we are always striving to improve our services and offer the<br>
+                best experience to our clients. We understand that keeping you informed about<br>
+                our latest developments, new features, and special offers is essential to<br>
+                building a lasting and trustworthy relationship with you.<br>
+                <br>
+                To make sure that you never miss out on the latest news and updates, we have<br>
+                created a newsletter that you can subscribe to. By providing us with your<br>
+                contact form and email, you will be regularly updated on all the exciting<br>
+                things happening at our agency.<br>
+                <br>
+                Our newsletter is filled with valuable insights, informative articles, and<br>
+                exclusive content that you won't find anywhere else. From tips and tricks to<br>
+                help you get the most out of our services to behind-the-scenes looks at our<br>
+                agency's inner workings, our newsletter is the perfect way to stay informed<br>
+                and engaged.<br>
+                <br>
+                Not only will you be among the first to know about our latest products and<br>
+                services, but you will also be the first to hear about any special promotions,<br>
+                discounts, and events that we have planned.<br>
+                <br>
+                At our agency, we are committed to providing our clients with the best possible<br>
+                experience, and our newsletter is just one way that we do that. By signing up<br>
+                today, you will be joining a community of like-minded individuals who share<br>
+                your passion for excellence and your commitment to staying informed.<br>
+                <br>
+                So why wait? Give us your contact form and email today, and start receiving<br>
+                our newsletter filled with the latest news, updates, and insights from our<br>
+                agency. We look forward to keeping you informed and engaged!<br>
+                <br>
+              </p>
+            </div>
+            <footer class="mdl-mini-footer">
+              <div class="mdl-mini-footer__left-section">
+                <div class="mdl-logo">Racoda Agency</div>
+                <ul class="mdl-mini-footer__link-list">
+                  <li><a href="data.html">Privacy Policy</a></li>
+                  <li><a href="imprint.html">Imprint</a></li>
+                </ul>
+              </div>
+            </footer>
+          </div>
+        </main>
+    </div>
+</body>
+</html>
